@@ -1,0 +1,212 @@
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .fira-sans-thin-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .fira-sans-extralight-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .fira-sans-light-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .fira-sans-regular-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .fira-sans-medium-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .fira-sans-semibold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .fira-sans-bold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .fira-sans-extrabold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .fira-sans-black-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+body{
+    background-color: #F1F1F3;
+}
+  
+nav {
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+nav li{
+    list-style: none;
+}
+.btn-primary{
+    background-color: #006A50;
+    font-weight: bold;
+    font-size: 18px;
+    color: white; 
+    border: none;
+    padding:20px 35px;
+    margin-left: 50px;
+    margin-top: 0px;
+    border-radius: 13px;
+}
+
+.Banner{
+    display: flex;
+    background-color: #B3D4CC;
+    max-width: 1280px;
+    border-radius: 15px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom:10px;
+}
+
+.first-selection{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+.btn1-style{
+    border: 1px solid black;
+    background-color: white;
+    font-size: 20px;
+    border-color:#006A50;
+    color: #006A50;
+    padding:15px 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.first-box{
+    display: flex;
+    /* margin: 100px 100px 100px 100px; */
+}
+.first-part{
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+.section-one-head{
+    font-size: 24px;
+    color: #757575;
+    margin-top: 5px;
+    margin-bottom: 16px;
+    padding-left: 50px;
+}
+.section-description{
+    font-size: 57px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding-left: 50px;
+}
+
+.banner-pic{
+    margin-top:50px;
+    margin-bottom: 50px; 
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 475px;
+    height: 400px;
+}
+ main{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 32px;
+ }
+
+ /* Pillars Style */
+ .pillar-head{
+    padding-bottom: 32px;
+ }
+ .all-pillars{
+    display: flex;
+    gap: 24px;
+ }
+ .pillar{
+    padding: 20px;
+    border-radius: 15px; 
+    box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.06); 
+ }
+
