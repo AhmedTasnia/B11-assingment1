@@ -264,7 +264,7 @@ main{
 .vision-description{
     font-size: 16px;
     color: #757575;
-    padding-bottom: 24px;
+    /* padding-bottom: 24px; */
 }
 .btn-one{
     background-color: #5490F5;
@@ -293,6 +293,37 @@ main{
     margin-top: auto;
     border-radius: 13px;
 }
+/* Speech styles */
+.Dr-speech{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 32px;
+ }
+ .speech{
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-color: white; 
+    border: none;
+    padding:40px 40px;
+    border-radius: 13px;
+ }
+.speech-text{
+    font-size: 16px;
+    color: #757575;
+    padding-bottom: 12px;
+}
+.speech-name{
+    font-size: 20px;
+    color: #0E0E0E;
+}
+.speech-position{
+    font-size: 16px;
+    color: #757575;
+    padding-bottom: 24px;
+}
+
 /* Recent-News Style */
 .news-head{
     font-size: 40px;
@@ -482,5 +513,28 @@ main{
     border-radius:0 9px 9px 0;
 }
 
-
+/* Footer Styles */
+footer{
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 32px;
+}
+.footer-head{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.footer hr{
+    margin: 35px 0px;
+    color: #757575; 
+}
+.footer-pic{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 32px;
+    align-items: center;
+    gap: 20px;
+}
 
