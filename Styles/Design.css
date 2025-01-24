@@ -127,6 +127,20 @@ nav {
 nav li{
     list-style: none;
 }
+.btn1-style{
+    border: 1px solid black;
+    background-color: white;
+    font-size: 25px;
+    border-color: #006A50;
+    color: #006A50;
+    padding:20px 35px;
+    margin-bottom: 10px;
+    border-radius: 9px;
+}
+.btn1-style:hover{
+    background-color: #006A50;
+    color: white;
+}
 .btn-primary{
     background-color: #006A50;
     font-weight: bold;
@@ -137,6 +151,10 @@ nav li{
     margin-left: 50px;
     margin-top: 0px;
     border-radius: 13px;
+}
+.btn-primary:hover{
+    background-color:whitesmoke;
+    color: #006A50;
 }
 
 /* Banner styles */
@@ -155,16 +173,7 @@ nav li{
     justify-content: space-between;
     margin-top: 0px;
 }
-.btn1-style{
-    border: 1px solid black;
-    background-color: white;
-    font-size: 20px;
-    border-color:#006A50;
-    color: #006A50;
-    padding:15px 20px;
-    margin-bottom: 10px;
-    border-radius: 4px;
-}
+
 .first-box{
     display: flex;
 }
